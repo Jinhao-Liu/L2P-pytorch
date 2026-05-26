@@ -1,0 +1,448 @@
+============================================================
+L2P_PyTorch_SingleGPU start
+Device: cuda | model: vit_small_patch16_224 | batch size: 64
+========================================
+PyTorch single-GPU environment
+PyTorch version: 2.11.0+cu128
+CUDA available: True
+GPU count: 1
+Using GPU: NVIDIA GeForce RTX 5060 Laptop GPU
+GPU memory: 7.96 GB
+AMP: True | channels_last: True | TF32: enabled
+========================================
+Loading Split CIFAR-100...
+Dataset ready. Tasks: 10
+Building L2P model...
+Backbone frozen: True | prompt pool: 20 | prompt length: 5 | top-k: 5
+============================================================
+
+============================================================
+Start task 0
+
+Task 0 | Epoch 1/10
+Epoch done | loss: 0.5803 | train acc: 0.8240
+
+Task 0 | Epoch 2/10
+Epoch done | loss: 0.1390 | train acc: 0.9554
+
+Task 0 | Epoch 3/10
+Epoch done | loss: 0.0971 | train acc: 0.9698
+
+Task 0 | Epoch 4/10
+Epoch done | loss: 0.0781 | train acc: 0.9766
+
+Task 0 | Epoch 5/10
+Epoch done | loss: 0.0726 | train acc: 0.9786
+
+Task 0 | Epoch 6/10
+Epoch done | loss: 0.0653 | train acc: 0.9772
+
+Task 0 | Epoch 7/10
+Epoch done | loss: 0.0597 | train acc: 0.9822
+
+Task 0 | Epoch 8/10
+Epoch done | loss: 0.0531 | train acc: 0.9850
+
+Task 0 | Epoch 9/10
+Epoch done | loss: 0.0443 | train acc: 0.9868
+
+Task 0 | Epoch 10/10
+Epoch done | loss: 0.0388 | train acc: 0.9896
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9660
+Task 0 done | avg acc: 0.9660 | avg forgetting: 0.0000
+
+============================================================
+Start task 1
+
+Task 1 | Epoch 1/10
+Epoch done | loss: 0.6607 | train acc: 0.7976
+
+Task 1 | Epoch 2/10
+Epoch done | loss: 0.1343 | train acc: 0.9620
+
+Task 1 | Epoch 3/10
+Epoch done | loss: 0.0927 | train acc: 0.9728
+
+Task 1 | Epoch 4/10
+Epoch done | loss: 0.0741 | train acc: 0.9786
+
+Task 1 | Epoch 5/10
+Epoch done | loss: 0.0586 | train acc: 0.9830
+
+Task 1 | Epoch 6/10
+Epoch done | loss: 0.0506 | train acc: 0.9860
+
+Task 1 | Epoch 7/10
+Epoch done | loss: 0.0403 | train acc: 0.9890
+
+Task 1 | Epoch 8/10
+Epoch done | loss: 0.0349 | train acc: 0.9898
+
+Task 1 | Epoch 9/10
+Epoch done | loss: 0.0310 | train acc: 0.9922
+
+Task 1 | Epoch 10/10
+Epoch done | loss: 0.0327 | train acc: 0.9912
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9660
+Task 1 test acc: 0.9770
+Task 1 done | avg acc: 0.9715 | avg forgetting: 0.0000
+
+============================================================
+Start task 2
+
+Task 2 | Epoch 1/10
+Epoch done | loss: 0.4260 | train acc: 0.8762
+
+Task 2 | Epoch 2/10
+Epoch done | loss: 0.1139 | train acc: 0.9686
+
+Task 2 | Epoch 3/10
+Epoch done | loss: 0.0790 | train acc: 0.9782
+
+Task 2 | Epoch 4/10
+Epoch done | loss: 0.0675 | train acc: 0.9786
+
+Task 2 | Epoch 5/10
+Epoch done | loss: 0.0549 | train acc: 0.9840
+
+Task 2 | Epoch 6/10
+Epoch done | loss: 0.0441 | train acc: 0.9884
+
+Task 2 | Epoch 7/10
+Epoch done | loss: 0.0393 | train acc: 0.9894
+
+Task 2 | Epoch 8/10
+Epoch done | loss: 0.0315 | train acc: 0.9924
+
+Task 2 | Epoch 9/10
+Epoch done | loss: 0.0320 | train acc: 0.9908
+
+Task 2 | Epoch 10/10
+Epoch done | loss: 0.0253 | train acc: 0.9954
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9770
+Task 1 test acc: 0.9730
+Task 2 test acc: 0.9690
+Task 2 done | avg acc: 0.9730 | avg forgetting: -0.0035
+
+============================================================
+Start task 3
+
+Task 3 | Epoch 1/10
+Epoch done | loss: 0.4730 | train acc: 0.8556
+
+Task 3 | Epoch 2/10
+Epoch done | loss: 0.0979 | train acc: 0.9708
+
+Task 3 | Epoch 3/10
+Epoch done | loss: 0.0676 | train acc: 0.9820
+
+Task 3 | Epoch 4/10
+Epoch done | loss: 0.0515 | train acc: 0.9870
+
+Task 3 | Epoch 5/10
+Epoch done | loss: 0.0451 | train acc: 0.9866
+
+Task 3 | Epoch 6/10
+Epoch done | loss: 0.0364 | train acc: 0.9912
+
+Task 3 | Epoch 7/10
+Epoch done | loss: 0.0294 | train acc: 0.9928
+
+Task 3 | Epoch 8/10
+Epoch done | loss: 0.0267 | train acc: 0.9938
+
+Task 3 | Epoch 9/10
+Epoch done | loss: 0.0239 | train acc: 0.9940
+
+Task 3 | Epoch 10/10
+Epoch done | loss: 0.0246 | train acc: 0.9940
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9780
+Task 1 test acc: 0.9740
+Task 2 test acc: 0.9680
+Task 3 test acc: 0.9740
+Task 3 done | avg acc: 0.9735 | avg forgetting: 0.0010
+
+============================================================
+Start task 4
+
+Task 4 | Epoch 1/10
+Epoch done | loss: 0.5665 | train acc: 0.8272
+
+Task 4 | Epoch 2/10
+Epoch done | loss: 0.1105 | train acc: 0.9662
+
+Task 4 | Epoch 3/10
+Epoch done | loss: 0.0751 | train acc: 0.9802
+
+Task 4 | Epoch 4/10
+Epoch done | loss: 0.0567 | train acc: 0.9832
+
+Task 4 | Epoch 5/10
+Epoch done | loss: 0.0454 | train acc: 0.9886
+
+Task 4 | Epoch 6/10
+Epoch done | loss: 0.0405 | train acc: 0.9886
+
+Task 4 | Epoch 7/10
+Epoch done | loss: 0.0325 | train acc: 0.9920
+
+Task 4 | Epoch 8/10
+Epoch done | loss: 0.0286 | train acc: 0.9930
+
+Task 4 | Epoch 9/10
+Epoch done | loss: 0.0259 | train acc: 0.9940
+
+Task 4 | Epoch 10/10
+Epoch done | loss: 0.0244 | train acc: 0.9942
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9730
+Task 1 test acc: 0.9750
+Task 2 test acc: 0.9700
+Task 3 test acc: 0.9750
+Task 4 test acc: 0.9750
+Task 4 done | avg acc: 0.9736 | avg forgetting: 0.0012
+
+============================================================
+Start task 5
+
+Task 5 | Epoch 1/10
+Epoch done | loss: 0.5189 | train acc: 0.8338
+
+Task 5 | Epoch 2/10
+Epoch done | loss: 0.1310 | train acc: 0.9578
+
+Task 5 | Epoch 3/10
+Epoch done | loss: 0.1054 | train acc: 0.9650
+
+Task 5 | Epoch 4/10
+Epoch done | loss: 0.0942 | train acc: 0.9674
+
+Task 5 | Epoch 5/10
+Epoch done | loss: 0.0866 | train acc: 0.9712
+
+Task 5 | Epoch 6/10
+Epoch done | loss: 0.0761 | train acc: 0.9766
+
+Task 5 | Epoch 7/10
+Epoch done | loss: 0.0623 | train acc: 0.9790
+
+Task 5 | Epoch 8/10
+Epoch done | loss: 0.0604 | train acc: 0.9800
+
+Task 5 | Epoch 9/10
+Epoch done | loss: 0.0584 | train acc: 0.9798
+
+Task 5 | Epoch 10/10
+Epoch done | loss: 0.0518 | train acc: 0.9846
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9780
+Task 1 test acc: 0.9720
+Task 2 test acc: 0.9740
+Task 3 test acc: 0.9740
+Task 4 test acc: 0.9780
+Task 5 test acc: 0.9600
+Task 5 done | avg acc: 0.9727 | avg forgetting: -0.0002
+
+============================================================
+Start task 6
+
+Task 6 | Epoch 1/10
+Epoch done | loss: 0.5548 | train acc: 0.8372
+
+Task 6 | Epoch 2/10
+Epoch done | loss: 0.1179 | train acc: 0.9642
+
+Task 6 | Epoch 3/10
+Epoch done | loss: 0.0857 | train acc: 0.9744
+
+Task 6 | Epoch 4/10
+Epoch done | loss: 0.0666 | train acc: 0.9818
+
+Task 6 | Epoch 5/10
+Epoch done | loss: 0.0520 | train acc: 0.9854
+
+Task 6 | Epoch 6/10
+Epoch done | loss: 0.0485 | train acc: 0.9868
+
+Task 6 | Epoch 7/10
+Epoch done | loss: 0.0410 | train acc: 0.9888
+
+Task 6 | Epoch 8/10
+Epoch done | loss: 0.0337 | train acc: 0.9928
+
+Task 6 | Epoch 9/10
+Epoch done | loss: 0.0331 | train acc: 0.9916
+
+Task 6 | Epoch 10/10
+Epoch done | loss: 0.0258 | train acc: 0.9930
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9740
+Task 1 test acc: 0.9750
+Task 2 test acc: 0.9750
+Task 3 test acc: 0.9760
+Task 4 test acc: 0.9760
+Task 5 test acc: 0.9590
+Task 6 test acc: 0.9620
+Task 6 done | avg acc: 0.9710 | avg forgetting: 0.0012
+
+============================================================
+Start task 7
+
+Task 7 | Epoch 1/10
+Epoch done | loss: 0.5282 | train acc: 0.8444
+
+Task 7 | Epoch 2/10
+Epoch done | loss: 0.1124 | train acc: 0.9660
+
+Task 7 | Epoch 3/10
+Epoch done | loss: 0.0755 | train acc: 0.9768
+
+Task 7 | Epoch 4/10
+Epoch done | loss: 0.0605 | train acc: 0.9820
+
+Task 7 | Epoch 5/10
+Epoch done | loss: 0.0489 | train acc: 0.9854
+
+Task 7 | Epoch 6/10
+Epoch done | loss: 0.0421 | train acc: 0.9884
+
+Task 7 | Epoch 7/10
+Epoch done | loss: 0.0397 | train acc: 0.9894
+
+Task 7 | Epoch 8/10
+Epoch done | loss: 0.0319 | train acc: 0.9918
+
+Task 7 | Epoch 9/10
+Epoch done | loss: 0.0278 | train acc: 0.9922
+
+Task 7 | Epoch 10/10
+Epoch done | loss: 0.0252 | train acc: 0.9942
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9720
+Task 1 test acc: 0.9750
+Task 2 test acc: 0.9750
+Task 3 test acc: 0.9730
+Task 4 test acc: 0.9730
+Task 5 test acc: 0.9580
+Task 6 test acc: 0.9570
+Task 7 test acc: 0.9790
+Task 7 done | avg acc: 0.9703 | avg forgetting: 0.0033
+
+============================================================
+Start task 8
+
+Task 8 | Epoch 1/10
+Epoch done | loss: 0.3720 | train acc: 0.8872
+
+Task 8 | Epoch 2/10
+Epoch done | loss: 0.0825 | train acc: 0.9780
+
+Task 8 | Epoch 3/10
+Epoch done | loss: 0.0555 | train acc: 0.9834
+
+Task 8 | Epoch 4/10
+Epoch done | loss: 0.0367 | train acc: 0.9904
+
+Task 8 | Epoch 5/10
+Epoch done | loss: 0.0349 | train acc: 0.9916
+
+Task 8 | Epoch 6/10
+Epoch done | loss: 0.0282 | train acc: 0.9926
+
+Task 8 | Epoch 7/10
+Epoch done | loss: 0.0223 | train acc: 0.9944
+
+Task 8 | Epoch 8/10
+Epoch done | loss: 0.0181 | train acc: 0.9948
+
+Task 8 | Epoch 9/10
+Epoch done | loss: 0.0158 | train acc: 0.9972
+
+Task 8 | Epoch 10/10
+Epoch done | loss: 0.0153 | train acc: 0.9962
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9810
+Task 1 test acc: 0.9750
+Task 2 test acc: 0.9730
+Task 3 test acc: 0.9770
+Task 4 test acc: 0.9790
+Task 5 test acc: 0.9600
+Task 6 test acc: 0.9660
+Task 7 test acc: 0.9670
+Task 8 test acc: 0.9820
+Task 8 done | avg acc: 0.9733 | avg forgetting: 0.0009
+
+============================================================
+Start task 9
+
+Task 9 | Epoch 1/10
+Epoch done | loss: 0.4308 | train acc: 0.8728
+
+Task 9 | Epoch 2/10
+Epoch done | loss: 0.0626 | train acc: 0.9846
+
+Task 9 | Epoch 3/10
+Epoch done | loss: 0.0426 | train acc: 0.9886
+
+Task 9 | Epoch 4/10
+Epoch done | loss: 0.0293 | train acc: 0.9940
+
+Task 9 | Epoch 5/10
+Epoch done | loss: 0.0204 | train acc: 0.9968
+
+Task 9 | Epoch 6/10
+Epoch done | loss: 0.0178 | train acc: 0.9964
+
+Task 9 | Epoch 7/10
+Epoch done | loss: 0.0131 | train acc: 0.9980
+
+Task 9 | Epoch 8/10
+Epoch done | loss: 0.0106 | train acc: 0.9978
+
+Task 9 | Epoch 9/10
+Epoch done | loss: 0.0097 | train acc: 0.9986
+
+Task 9 | Epoch 10/10
+Epoch done | loss: 0.0081 | train acc: 0.9996
+
+Evaluating seen tasks...
+Task 0 test acc: 0.9750
+Task 1 test acc: 0.9760
+Task 2 test acc: 0.9760
+Task 3 test acc: 0.9740
+Task 4 test acc: 0.9780
+Task 5 test acc: 0.9620
+Task 6 test acc: 0.9630
+Task 7 test acc: 0.9700
+Task 8 test acc: 0.9840
+Task 9 test acc: 0.9910
+Task 9 done | avg acc: 0.9749 | avg forgetting: 0.0020
+
+============================================================
+Final results
+Final avg acc: 0.9749
+Final avg forgetting: 0.0020
+Accuracy matrix:
+[[0.966 0.    0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.966 0.977 0.    0.    0.    0.    0.    0.    0.    0.   ]
+ [0.977 0.973 0.969 0.    0.    0.    0.    0.    0.    0.   ]
+ [0.978 0.974 0.968 0.974 0.    0.    0.    0.    0.    0.   ]
+ [0.973 0.975 0.97  0.975 0.975 0.    0.    0.    0.    0.   ]
+ [0.978 0.972 0.974 0.974 0.978 0.96  0.    0.    0.    0.   ]
+ [0.974 0.975 0.975 0.976 0.976 0.959 0.962 0.    0.    0.   ]
+ [0.972 0.975 0.975 0.973 0.973 0.958 0.957 0.979 0.    0.   ]
+ [0.981 0.975 0.973 0.977 0.979 0.96  0.966 0.967 0.982 0.   ]
+ [0.975 0.976 0.976 0.974 0.978 0.962 0.963 0.97  0.984 0.991]]
